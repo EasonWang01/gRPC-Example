@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package getInfo;
+
+// The greeting service definition.
+service getInfoService {
+  rpc getAccountBalance (account) returns (payload) {}
+  rpc getLastestBlock (empty) returns (payload) {}
+}
+
+
+message account {
+  string account = 1;
+}
+message payload {
+  string payload = 1;
+}
+
+message empty {}
