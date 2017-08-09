@@ -1,0 +1,23 @@
+{
+  "name": "grpc-example",
+  "version": "1.0.0",
+  "description": "Example of grpc",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasonWang01/gRPC-Example.git"
+  },
+  "author": "yicheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EasonWang01/gRPC-Example/issues"
+  },
+  "homepage": "https://github.com/EasonWang01/gRPC-Example#readme",
+  "dependencies": {
+    "grpc": "^1.4.1"
+  }
+}
